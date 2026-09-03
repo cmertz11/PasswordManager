@@ -1,0 +1,7 @@
+#include "Shared.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = $(PASSWORD_MANAGER_BUNDLE_IDENTIFIER)
+INFOPLIST_FILE = Configuration/AppInfo.plist
+CODE_SIGN_ENTITLEMENTS = PasswordManager/PasswordManager.entitlements
+CODE_SIGN_ENTITLEMENTS[sdk=macosx*] = PasswordManager/PasswordManager.macOS.entitlements
+PASSWORD_MANAGER_CLOUDKIT_ENABLED = YES

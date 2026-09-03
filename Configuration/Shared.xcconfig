@@ -1,0 +1,8 @@
+// Public defaults keep a fresh clone independent from the maintainer's account.
+// Copy DeveloperSettings.xcconfig.example to DeveloperSettings.xcconfig to
+// override these values without committing personal signing information.
+
+PASSWORD_MANAGER_BUNDLE_IDENTIFIER = com.example.PasswordManager
+PASSWORD_MANAGER_CLOUD_CONTAINER_IDENTIFIER = iCloud.$(PASSWORD_MANAGER_BUNDLE_IDENTIFIER)
+
+#include? "DeveloperSettings.xcconfig"

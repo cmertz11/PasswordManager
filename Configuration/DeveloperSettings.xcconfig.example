@@ -1,0 +1,6 @@
+// Copy this file to DeveloperSettings.xcconfig and replace the examples.
+// DeveloperSettings.xcconfig is ignored by Git.
+
+DEVELOPMENT_TEAM = ABCDE12345
+PASSWORD_MANAGER_BUNDLE_IDENTIFIER = com.yourname.PasswordManager
+PASSWORD_MANAGER_CLOUD_CONTAINER_IDENTIFIER = iCloud.com.yourname.PasswordManager
